@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>
+        CONTACT
+    </title>
+</head>
+
+<body>
+    <div class="header-2">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/smtown7.png"></a>
+                <div class="logo-text">
+                    <a href="index.html">SM ENTERTAINMENT</a>
+                </div>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li> <a href="index.html"> HOME </a> </li>
+                    <li> <a href="artists.html"> ARTISTS </a> </li>
+                    <li> <a href="about.html"> ABOUT</a> </li>
+                    <li> <a href="contact.html"> CONTACT US </a> </li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" width="20px" height="20px">
+        </div>
+        <div class="description-about">
+            <h2>CONTACT US</h2>
+            <p>Connect with SM Entertainment through the following ways. </p>
+        </div>
+    </div>
+    <div class="about">
+        <div class="about-image" style="max-width: 100%;">
+            <h4>ASIA'S NO.1</h4>
+            <h2> MUSIC PRODUCTION GROUP</h2>
+            <img src="images/smtown4.png">
+        </div>
+        <div class="contact-text">
+            <h3> COLLABORATION ENQUIRIES</h3>
+            <br>
+            <p>US: +1 (855) 747 6767 | Australia: +61 1800 861 302 UK: +44 8081 698 824 | +44 189 280 5040 India: +91 44 6667 8040</p>
+            <br>
+
+            <h3>PARTNER ENQUIRIES</h3>
+            <br>
+            <p>Address: 31 Hayward St, Ste J Franklin, MA 02038</p>
+            <p>Phone: 508-528-5200
+            </p>
+            <p> Fax: 508-520-6914
+            </p>
+            <br>
+            <h3>EMAIL</h3>
+            <br>
+            <p>support@sment.com</p>
+            <p>collabt@sment.com</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-left">
+            <h2>SM ENTERTAINMENT</h2>
+            <p>Leaders in Music</p>
+        </div>
+        <div class="footer-mid">
+            <h3>POLICY</h3>
+            <ul>
+                <li>Privacy</li>
+                <li>User Agreement</li>
+                <li>Help center</li>
+                <li> <a href="about.html">ABOUT US</a> </li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <h3> <a href="contact.html">CONTACT US</a></h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Email</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+
+</html>

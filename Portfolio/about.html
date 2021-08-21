@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>
+        ABOUT
+    </title>
+</head>
+
+<body>
+    <div class="header-2">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/smtown7.png"></a>
+                <div class="logo-text">
+                    <a href="index.html">SM ENTERTAINMENT</a>
+                </div>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li> <a href="index.html"> HOME </a> </li>
+                    <li> <a href="artists.html"> ARTISTS </a> </li>
+                    <li> <a href="about.html"> ABOUT</a> </li>
+                    <li> <a href="contact.html"> CONTACT US </a> </li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" width="20px" height="20px">
+        </div>
+
+        <div class="description-about">
+            <h2>OVERVIEW</h2>
+            <p>Introduction to SM Entertainment, the leading music production group in Asia </p>
+        </div>
+    </div>
+
+
+    <div class="about">
+        <div class="about-image" style="max-width: 100%;">
+            <h4>ASIA'S NO.1</h4>
+            <h2> MUSIC PRODUCTION GROUP</h2>
+            <img src="images/smtown4.png">
+        </div>
+
+        <div class="about-text">
+            <p>SM Entertainment, founded in 1995 by Head Producer Lee Soo Man, is the first company in the industry to introduce systematic casting, training, producing, and management systems, and it has been discovering unique content by pinpointing demands
+                for music and cultural trends. SM Entertainment entered the global marketplace using globalization and localization strategies through culture technology and has become a leading entertainment company in Asia.</p>
+            <p> In 1997, SM Entertainment became the first company in the Korean entertainment industry to enter foreign markets and made remarkable achievements as the leader of Hallyu, or the Korean Wave. SM Entertainment has successfully set foot in North
+                America, South America, and Europe while maintaining its base in Asia, and has enhanced the national brand of Korea and promoted the growth of the culture industry.
+                <p>SM Entertainment is promoting the unique culture of Korea through avenues such as K-POP, the Korean alphabet, and Korean cuisine, through 'Made by SM' content all over the world, and is elevating the prestige of Korea by promoting the
+                    consumption of Korean brand products. In particular, SM Entertainment has focused on the value of culture that can lead the national economy and has contributed to its growth under the catchphrase, "Culture First, Economy Next." SM
+                    Entertainment will continue to lead the entertainment industry until Korea becomes a ‘Cultural Powerhouse' as well as an ‘Economic Powerhouse' based on the idea that our economy will reach its heights only when our culture wins the
+                    heart of the entire world.
+                </p>
+        </div>
+
+    </div>
+    <div class="footer">
+
+        <div class="footer-left">
+            <h2>SM ENTERTAINMENT</h2>
+            <p>Leaders in Music</p>
+        </div>
+
+
+        <div class="footer-mid">
+            <h3> POLICY</h3>
+            <ul>
+                <li>Privacy</li>
+                <li>User Agreement</li>
+                <li>Help center</li>
+                <li> <a href="about.html">ABOUT US</a> </li>
+            </ul>
+        </div>
+
+        <div class="footer-right">
+            <h3> <a href="contact.html">CONTACT US</a></h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Email</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+
+</html>
